@@ -7221,7 +7221,7 @@ span.gfort-form-error::before {
     top: 0;
     left: 0;
     z-index: -1;
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
     overflow: hidden;
     user-select: none;
@@ -10385,6 +10385,9 @@ span.gfort-form-error::before {
 }
 @media (min-width: 1200px) {
     .gfort-section-100vh-xl { min-height: 100vh; }
+}
+@media (max-width:768px) {
+    .gfort-section-100vh { min-height: 50vh; }
 }
 
 /* 75% view height
